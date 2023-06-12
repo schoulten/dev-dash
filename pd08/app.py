@@ -22,7 +22,10 @@ app_ui = ui.page_navbar(
                 ),
             width = 3
             ),
-            ui.panel_main()
+            ui.panel_main(
+                "Painel de conteúdo principal",
+                style = "background-color: gray;"
+                )
         )
         ),
     ui.nav("Página 2"),
