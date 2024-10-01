@@ -20,8 +20,11 @@ app_ui = ui.page_navbar(
                 ),
                 bg = "#d3d3d3"
             ),
-            "Painel principal"
-        )
+            "Painel principal",
+            ui.markdown("Texto *markdown*"),
+            ui.img(src = "https://aluno.analisemacro.com.br/wp-content/uploads/dlm_uploads/2023/05/logo_am_45.png", width = 45),
+            bg = "#e8e8e8"
+            )
         ),
     ui.nav_panel("Página 2", "Conteúdo da Página 2"),
     ui.nav_control(ui.a("Análise Macro", href = "https://analisemacro.com.br/")),
